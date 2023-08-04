@@ -1,10 +1,10 @@
-module.exports = function toReadable(mynumber) {
+module.exports = function toReadable(number) {
     let arrSingle = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
     let arrDuo = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
     let arrPair = ['zero', 'ten', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
     let arrTriple = ['zero', 'one hundred', 'two hundred', 'three hundred', 'four hundred', 'five hundred', 'six hundred', 'seven hundred', 'eight hundred', 'nine hundred'];
 
-    let strokeNumber = String(mynumber);
+    let strokeNumber = String(number);
     let stringNumber = '';
 
     if (strokeNumber.length === 3) {
